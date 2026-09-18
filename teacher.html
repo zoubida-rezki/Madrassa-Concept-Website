@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<!-- TOP NAVIGATION -->
+<nav class="navbar">
+
+    <div class="logo">
+        School Portal
+    </div>
+
+    <div class="teacher-info">
+        <span>Welcome, Ms. Ahmed</span>
+        <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+
+</nav>
+
+
+<div class="teacher-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-title">
+            Teacher Portal
+        </div>
+
+        <a href="#" class="sidebar-link active">
+            <span>📊</span>
+            Dashboard
+        </a>
+
+        <a href="#" class="sidebar-link">
+            <span>⏱️</span>
+            Log Hours
+        </a>
+
+        <a href="#" class="sidebar-link">
+            <span>📝</span>
+            Assignments
+        </a>
+
+        <a href="#" class="sidebar-link">
+            <span>📚</span>
+            Classes
+        </a>
+
+        <a href="#" class="sidebar-link">
+            <span>🎓</span>
+            Grades
+        </a>
+
+        <a href="#" class="sidebar-link">
+            <span>📈</span>
+            Reports
+        </a>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="sidebar-link">
+                <span>⚙️</span>
+                Settings
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="teacher-main">
+
+        <div class="page-header">
+
+            <div>
+                <h1>Teacher Dashboard</h1>
+                <p>Manage your classes, assignments, hours, and grades.</p>
+            </div>
+
+            <button class="primary-button">
+                + Create Assignment
+            </button>
+
+        </div>
+
+
+        <!-- SUMMARY CARDS -->
+
+        <div class="summary-cards">
+
+            <div class="summary-card">
+
+                <div class="summary-icon">
+                    ⏱️
+                </div>
+
+                <div>
+                    <p class="summary-label">Hours This Month</p>
+                    <h2>42.5 hrs</h2>
+                    <span class="summary-small">
+                        7.5 hrs this week
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="summary-icon">
+                    📝
+                </div>
+
+                <div>
+                    <p class="summary-label">Active Assignments</p>
+                    <h2>8</h2>
+                    <span class="summary-small">
+                        3 due this week
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="summary-icon">
+                    🎓
+                </div>
+
+                <div>
+                    <p class="summary-label">Grades Pending</p>
+                    <h2>17</h2>
+                    <span class="summary-small">
+                        Across 3 classes
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <div class="summary-icon">
+                    📚
+                </div>
+
+                <div>
+                    <p class="summary-label">My Classes</p>
+                    <h2>5</h2>
+                    <span class="summary-small">
+                        124 students
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MAIN GRID -->
+
+        <div class="dashboard-grid">
+
+
+            <!-- LOG HOURS -->
+
+            <section class="dashboard-section">
+
+                <div class="section-header">
+
+                    <div>
+                        <h2>Log Teaching Hours</h2>
+                        <p>Record your hours for this week.</p>
+                    </div>
+
+                    <a href="#">View History</a>
+
+                </div>
+
+
+                <div class="hours-form">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Hours</label>
+                            <input type="number" placeholder="e.g. 3.5">
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>Class / Activity</label>
+
+                        <select>
+
+                            <option>Select class or activity</option>
+                            <option>Mathematics - Grade 8</option>
+                            <option>Science - Grade 7</option>
+                            <option>English - Grade 8</option>
+                            <option>Administrative Work</option>
+                            <option>Staff Meeting</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>Notes</label>
+
+                        <textarea
+                            placeholder="Optional notes about your hours..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button class="primary-button">
+                        Log Hours
+                    </button>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- RECENT HOURS -->
+
+            <section class="dashboard-section">
+
+                <div class="section-header">
+
+                    <div>
+                        <h2>Recent Hours</h2>
+                        <p>Your recently logged hours.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="hours-list">
+
+                    <div class="hours-item">
+
+                        <div>
+                            <strong>September 17</strong>
+                            <span>Mathematics - Grade 8</span>
+                        </div>
+
+                        <strong>3.5 hrs</strong>
+
+                    </div>
+
+
+                    <div class="hours-item">
+
+                        <div>
+                            <strong>September 16</strong>
+                            <span>Science - Grade 7</span>
+                        </div>
+
+                        <strong>2.5 hrs</strong>
+
+                    </div>
+
+
+                    <div class="hours-item">
+
+                        <div>
+                            <strong>September 15</strong>
+                            <span>Staff Meeting</span>
+                        </div>
+
+                        <strong>1.0 hr</strong>
+
+                    </div>
+
+
+                    <div class="hours-item">
+
+                        <div>
+                            <strong>September 14</strong>
+                            <span>English - Grade 8</span>
+                        </div>
+
+                        <strong>3.0 hrs</strong>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- ASSIGNMENTS -->
+
+        <section class="dashboard-section full-width">
+
+            <div class="section-header">
+
+                <div>
+                    <h2>Assignments</h2>
+                    <p>Create, upload, and manage assignments.</p>
+                </div>
+
+                <button class="primary-button">
+                    + New Assignment
+                </button>
+
+            </div>
+
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Class</th>
+                            <th>Due Date</th>
+                            <th>Submissions</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                <strong>Fractions Worksheet</strong>
+                            </td>
+
+                            <td>Math - Grade 8</td>
+
+                            <td>Sep 20, 2026</td>
+
+                            <td>18 / 24</td>
+
+                            <td>
+                                <span class="status active-status">
+                                    Active
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="table-button">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <strong>Chapter 4 Reading</strong>
+                            </td>
+
+                            <td>English - Grade 8</td>
+
+                            <td>Sep 22, 2026</td>
+
+                            <td>12 / 26</td>
+
+                            <td>
+                                <span class="status active-status">
+                                    Active
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="table-button">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <strong>Solar System Project</strong>
+                            </td>
+
+                            <td>Science - Grade 7</td>
+
+                            <td>Sep 18, 2026</td>
+
+                            <td>24 / 24</td>
+
+                            <td>
+                                <span class="status completed-status">
+                                    Completed
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="table-button">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- GRADES -->
+
+        <section class="dashboard-section full-width">
+
+            <div class="section-header">
+
+                <div>
+                    <h2>Grades</h2>
+                    <p>Monitor and upload student grades.</p>
+                </div>
+
+                <div class="header-buttons">
+
+                    <button class="secondary-button">
+                        Upload Grades
+                    </button>
+
+                    <button class="primary-button">
+                        Enter Grades
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="grades-overview">
+
+                <div class="grade-class">
+
+                    <div class="grade-class-header">
+
+                        <div>
+                            <strong>Mathematics - Grade 8</strong>
+                            <span>24 students</span>
+                        </div>
+
+                        <strong>87%</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 87%;"></div>
+                    </div>
+
+                    <div class="grade-footer">
+                        2 grades pending
+                    </div>
+
+                </div>
+
+
+                <div class="grade-class">
+
+                    <div class="grade-class-header">
+
+                        <div>
+                            <strong>Science - Grade 7</strong>
+                            <span>26 students</span>
+                        </div>
+
+                        <strong>91%</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 91%;"></div>
+                    </div>
+
+                    <div class="grade-footer">
+                        All grades submitted
+                    </div>
+
+                </div>
+
+
+                <div class="grade-class">
+
+                    <div class="grade-class-header">
+
+                        <div>
+                            <strong>English - Grade 8</strong>
+                            <span>26 students</span>
+                        </div>
+
+                        <strong>84%</strong>
+
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 84%;"></div>
+                    </div>
+
+                    <div class="grade-footer">
+                        15 grades pending
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+```
+
+</body>
+</html>
