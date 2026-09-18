@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<!-- TOP NAVIGATION -->
+<nav class="navbar">
+
+    <div class="logo">
+        School Portal
+    </div>
+
+    <div class="student-info">
+        <span>Welcome, Sarah</span>
+        <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+
+</nav>
+
+
+<div class="student-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="student-sidebar">
+
+        <div class="sidebar-title">
+            Student Portal
+        </div>
+
+        <a href="#" class="student-sidebar-link active">
+            <span>📊</span>
+            Dashboard
+        </a>
+
+        <a href="#" class="student-sidebar-link">
+            <span>🎓</span>
+            My Grades
+        </a>
+
+        <a href="#" class="student-sidebar-link">
+            <span>📝</span>
+            Assignments
+        </a>
+
+        <a href="#" class="student-sidebar-link">
+            <span>📤</span>
+            Submissions
+        </a>
+
+        <a href="#" class="student-sidebar-link">
+            <span>💬</span>
+            Messages
+        </a>
+
+        <a href="#" class="student-sidebar-link">
+            <span>📅</span>
+            Schedule
+        </a>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="student-sidebar-link">
+                <span>⚙️</span>
+                Settings
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="student-main">
+
+        <div class="student-header">
+
+            <div>
+                <h1>Student Dashboard</h1>
+                <p>View your progress, assignments, and messages.</p>
+            </div>
+
+            <button class="primary-button">
+                💬 Message a Teacher
+            </button>
+
+        </div>
+
+
+        <!-- STUDENT PROFILE -->
+
+        <div class="student-profile">
+
+            <div class="student-avatar">
+                SA
+            </div>
+
+            <div class="student-profile-info">
+
+                <strong>Sarah Ahmed</strong>
+
+                <span>
+                    Grade 8 • Student ID #10284
+                </span>
+
+            </div>
+
+            <div class="student-profile-stat">
+
+                <span>Overall Average</span>
+
+                <strong>88%</strong>
+
+            </div>
+
+            <div class="student-profile-stat">
+
+                <span>Assignments Due</span>
+
+                <strong>4</strong>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- SUMMARY CARDS -->
+
+        <div class="student-summary-cards">
+
+            <div class="student-summary-card">
+
+                <div class="student-summary-icon">
+                    🎓
+                </div>
+
+                <div>
+                    <span class="summary-label">
+                        Overall Grade
+                    </span>
+
+                    <h2>88%</h2>
+
+                    <span class="summary-small">
+                        Current average
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="student-summary-card">
+
+                <div class="student-summary-icon">
+                    📝
+                </div>
+
+                <div>
+                    <span class="summary-label">
+                        Upcoming
+                    </span>
+
+                    <h2>4</h2>
+
+                    <span class="summary-small">
+                        Assignments due
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="student-summary-card">
+
+                <div class="student-summary-icon">
+                    📤
+                </div>
+
+                <div>
+                    <span class="summary-label">
+                        Submitted
+                    </span>
+
+                    <h2>18</h2>
+
+                    <span class="summary-small">
+                        This semester
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="student-summary-card">
+
+                <div class="student-summary-icon">
+                    💬
+                </div>
+
+                <div>
+                    <span class="summary-label">
+                        Messages
+                    </span>
+
+                    <h2>2</h2>
+
+                    <span class="summary-small">
+                        Unread
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- MAIN GRID -->
+
+        <div class="student-dashboard-grid">
+
+
+            <!-- GRADES -->
+
+            <section class="student-section">
+
+                <div class="student-section-header">
+
+                    <div>
+                        <h2>My Grades</h2>
+                        <p>Your current class grades.</p>
+                    </div>
+
+                    <a href="#">View All</a>
+
+                </div>
+
+
+                <div class="student-grade-list">
+
+                    <div class="student-grade-row">
+
+                        <div class="subject-details">
+
+                            <strong>
+                                Mathematics
+                            </strong>
+
+                            <span>
+                                Ms. Johnson
+                            </span>
+
+                        </div>
+
+                        <div class="grade-bar-container">
+
+                            <div class="student-progress-bar">
+                                <div
+                                    class="student-progress-fill"
+                                    style="width: 92%;"
+                                ></div>
+                            </div>
+
+                        </div>
+
+                        <strong class="student-grade">
+                            92%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="student-grade-row">
+
+                        <div class="subject-details">
+
+                            <strong>
+                                Science
+                            </strong>
+
+                            <span>
+                                Mr. Williams
+                            </span>
+
+                        </div>
+
+                        <div class="grade-bar-container">
+
+                            <div class="student-progress-bar">
+                                <div
+                                    class="student-progress-fill"
+                                    style="width: 89%;"
+                                ></div>
+                            </div>
+
+                        </div>
+
+                        <strong class="student-grade">
+                            89%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="student-grade-row">
+
+                        <div class="subject-details">
+
+                            <strong>
+                                English
+                            </strong>
+
+                            <span>
+                                Ms. Davis
+                            </span>
+
+                        </div>
+
+                        <div class="grade-bar-container">
+
+                            <div class="student-progress-bar">
+                                <div
+                                    class="student-progress-fill"
+                                    style="width: 86%;"
+                                ></div>
+
+                        </div>
+
+                        <strong class="student-grade">
+                            86%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="student-grade-row">
+
+                        <div class="subject-details">
+
+                            <strong>
+                                History
+                            </strong>
+
+                            <span>
+                                Mr. Brown
+                            </span>
+
+                        </div>
+
+                        <div class="grade-bar-container">
+
+                            <div class="student-progress-bar">
+                                <div
+                                    class="student-progress-fill"
+                                    style="width: 85%;"
+                                ></div>
+                            </div>
+
+                        </div>
+
+                        <strong class="student-grade">
+                            85%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- UPCOMING ASSIGNMENTS -->
+
+            <section class="student-section">
+
+                <div class="student-section-header">
+
+                    <div>
+                        <h2>Upcoming Assignments</h2>
+                        <p>Assignments you need to complete.</p>
+                    </div>
+
+                    <a href="#">View All</a>
+
+                </div>
+
+
+                <div class="student-assignment-list">
+
+
+                    <div class="student-assignment">
+
+                        <div class="student-assignment-date">
+                            <strong>20</strong>
+                            <span>SEP</span>
+                        </div>
+
+                        <div class="student-assignment-info">
+
+                            <strong>
+                                Fractions Worksheet
+                            </strong>
+
+                            <span>
+                                Mathematics
+                            </span>
+
+                            <small>
+                                Due in 2 days
+                            </small>
+
+                        </div>
+
+                        <button class="secondary-button">
+                            Submit
+                        </button>
+
+                    </div>
+
+
+                    <div class="student-assignment">
+
+                        <div class="student-assignment-date">
+                            <strong>22</strong>
+                            <span>SEP</span>
+                        </div>
+
+                        <div class="student-assignment-info">
+
+                            <strong>
+                                Chapter 4 Reading
+                            </strong>
+
+                            <span>
+                                English
+                            </span>
+
+                            <small>
+                                Due in 4 days
+                            </small>
+
+                        </div>
+
+                        <button class="secondary-button">
+                            Submit
+                        </button>
+
+                    </div>
+
+
+                    <div class="student-assignment">
+
+                        <div class="student-assignment-date">
+                            <strong>25</strong>
+                            <span>SEP</span>
+                        </div>
+
+                        <div class="student-assignment-info">
+
+                            <strong>
+                                Solar System Project
+                            </strong>
+
+                            <span>
+                                Science
+                            </span>
+
+                            <small>
+                                Due in 7 days
+                            </small>
+
+                        </div>
+
+                        <button class="secondary-button">
+                            Submit
+                        </button>
+
+                    </div>
+
+
+                    <div class="student-assignment">
+
+                        <div class="student-assignment-date">
+                            <strong>27</strong>
+                            <span>SEP</span>
+                        </div>
+
+                        <div class="student-assignment-info">
+
+                            <strong>
+                                History Essay
+                            </strong>
+
+                            <span>
+                                History
+                            </span>
+
+                            <small>
+                                Due in 9 days
+                            </small>
+
+                        </div>
+
+                        <button class="secondary-button">
+                            Submit
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+
+        <!-- SUBMIT ASSIGNMENT -->
+
+        <section class="student-section full-width">
+
+            <div class="student-section-header">
+
+                <div>
+                    <h2>Submit an Assignment</h2>
+                    <p>Upload your completed work.</p>
+                </div>
+
+            </div>
+
+
+            <div class="submission-form">
+
+                <div class="form-group">
+
+                    <label>
+                        Assignment
+                    </label>
+
+                    <select>
+
+                        <option>
+                            Select an assignment
+                        </option>
+
+                        <option>
+                            Fractions Worksheet
+                        </option>
+
+                        <option>
+                            Chapter 4 Reading
+                        </option>
+
+                        <option>
+                            Solar System Project
+                        </option>
+
+                        <option>
+                            History Essay
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="upload-area">
+
+                    <div class="upload-icon">
+                        📤
+                    </div>
+
+                    <strong>
+                        Upload your assignment
+                    </strong>
+
+                    <p>
+                        Drag and drop your file here or click to browse.
+                    </p>
+
+                    <button class="secondary-button">
+                        Choose File
+                    </button>
+
+                    <span>
+                        PDF, DOCX, JPG or PNG • Max 10 MB
+                    </span>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Comments
+                    </label>
+
+                    <textarea
+                        placeholder="Add a note to your teacher..."
+                    ></textarea>
+
+                </div>
+
+
+                <button class="primary-button">
+                    Submit Assignment
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MESSAGES -->
+
+        <section class="student-section full-width">
+
+            <div class="student-section-header">
+
+                <div>
+                    <h2>Messages</h2>
+                    <p>Send and receive messages from your teachers.</p>
+                </div>
+
+                <button class="primary-button">
+                    + New Message
+                </button>
+
+            </div>
+
+
+            <div class="student-message-layout">
+
+
+                <!-- MESSAGE LIST -->
+
+                <div class="student-message-list">
+
+                    <div class="student-message-item active-message">
+
+                        <div class="student-message-avatar">
+                            MJ
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Ms. Johnson
+                            </strong>
+
+                            <span>
+                                Mathematics
+                            </span>
+
+                            <p>
+                                Sarah, please let me know if you have
+                                any questions about the homework.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="student-message-item">
+
+                        <div class="student-message-avatar">
+                            SW
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Mr. Williams
+                            </strong>
+
+                            <span>
+                                Science
+                            </span>
+
+                            <p>
+                                Don't forget that the science project
+                                is due next Friday.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NEW MESSAGE -->
+
+                <div class="new-message">
+
+                    <h3>
+                        Send a Message
+                    </h3>
+
+                    <div class="form-group">
+
+                        <label>
+                            Teacher
+                        </label>
+
+                        <select>
+
+                            <option>
+                                Select a teacher
+                            </option>
+
+                            <option>
+                                Ms. Johnson - Mathematics
+                            </option>
+
+                            <option>
+                                Mr. Williams - Science
+                            </option>
+
+                            <option>
+                                Ms. Davis - English
+                            </option>
+
+                            <option>
+                                Mr. Brown - History
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Message
+                        </label>
+
+                        <textarea
+                            class="message-textarea"
+                            placeholder="Write your message..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button class="primary-button">
+                        Send Message
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+```
+
+</body>
+</html>
