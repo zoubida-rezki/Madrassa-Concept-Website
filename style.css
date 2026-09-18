@@ -3,11 +3,22 @@
 MINIMAL TEACHER DASHBOARD
 ========================================= */
 
+/* .teacher-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px 30px 70px;
+} */
+
+/* MAIN TEACHER CONTENT */
+
 .teacher-main {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 45px 30px 70px;
 }
+
+
 
 
 /* PAGE HEADER */
