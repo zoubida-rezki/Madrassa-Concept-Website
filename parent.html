@@ -1,398 +1,307 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Parent Dashboard</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
 
-    <body>
-        ```
-        <!-- TOP NAVIGATION -->
-        <nav class="navbar">
-            <div class="logo">School Portal</div>
-
-            <div class="teacher-info">
-                <span>Welcome, Mr. Ahmed</span>
-                <a href="index.html" class="logout-btn">Logout</a>
-            </div>
-        </nav>
-
-        <div class="parent-layout">
-            <!-- SIDEBAR -->
-            <aside class="parent-sidebar">
-                <div class="sidebar-title">Parent Portal</div>
-
-                <a href="#" class="parent-sidebar-link active">
-                    <span>📊</span>
-                    Dashboard
-                </a>
-
-                <a href="#" class="parent-sidebar-link">
-                    <span>🎓</span>
-                    Grades
-                </a>
-
-                <a href="#" class="parent-sidebar-link">
-                    <span>📅</span>
-                    Assignments
-                </a>
-
-                <a href="#" class="parent-sidebar-link">
-                    <span>💳</span>
-                    Payments
-                </a>
-
-                <a href="#" class="parent-sidebar-link">
-                    <span>💬</span>
-                    Messages
-                </a>
-
-                <a href="#" class="parent-sidebar-link">
-                    <span>📚</span>
-                    My Children
-                </a>
-
-                <div class="sidebar-bottom">
-                    <a href="#" class="parent-sidebar-link">
-                        <span>⚙️</span>
-                        Settings
-                    </a>
-                </div>
-            </aside>
-
-            <!-- MAIN CONTENT -->
-            <main class="parent-main">
-                <div class="parent-header">
-                    <div>
-                        <h1>Parent Dashboard</h1>
-                        <p>
-                            Stay up to date with your child's school activity.
-                        </p>
-                    </div>
-
-                    <button class="primary-button">💬 Message a Teacher</button>
-                </div>
-
-                <!-- CHILD SELECTOR -->
-
-                <div class="child-selector">
-                    <div class="child-avatar">SA</div>
-
-                    <div class="child-info">
-                        <span class="child-label">
-                            Viewing information for
-                        </span>
-
-                        <strong>Sarah Ahmed</strong>
-
-                        <span> Grade 8 • Student ID #10284 </span>
-                    </div>
-
-                    <button class="secondary-button">Switch Child</button>
-                </div>
-
-                <!-- QUICK OVERVIEW -->
-
-                <div class="parent-summary-cards">
-                    <div class="parent-summary-card">
-                        <span class="parent-card-icon"> 🎓 </span>
-
-                        <div>
-                            <span class="summary-label"> Overall Grade </span>
-
-                            <h2>88%</h2>
-
-                            <span class="summary-small"> Current average </span>
-                        </div>
-                    </div>
-
-                    <div class="parent-summary-card">
-                        <span class="parent-card-icon"> 📅 </span>
-
-                        <div>
-                            <span class="summary-label"> Upcoming Work </span>
-
-                            <h2>4</h2>
-
-                            <span class="summary-small"> Due this week </span>
-                        </div>
-                    </div>
-
-                    <div class="parent-summary-card">
-                        <span class="parent-card-icon"> 💳 </span>
-
-                        <div>
-                            <span class="summary-label"> Amount Due </span>
-
-                            <h2>$125</h2>
-
-                            <span class="summary-small">
-                                Due September 30
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="parent-summary-card">
-                        <span class="parent-card-icon"> 💬 </span>
-
-                        <div>
-                            <span class="summary-label"> Messages </span>
-
-                            <h2>2</h2>
-
-                            <span class="summary-small"> Unread messages </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- MAIN DASHBOARD GRID -->
-
-                <div class="parent-dashboard-grid">
-                    <!-- GRADES -->
-
-                    <section class="parent-section">
-                        <div class="parent-section-header">
-                            <div>
-                                <h2>Grades</h2>
-                                <p>Sarah's current class performance.</p>
-                            </div>
-
-                            <a href="#">View All</a>
-                        </div>
-
-                        <div class="subject-list">
-                            <div class="subject-row">
-                                <div>
-                                    <strong>Mathematics</strong>
-                                    <span>Ms. Johnson</span>
-                                </div>
-
-                                <div class="grade-value">92%</div>
-                            </div>
-
-                            <div class="subject-row">
-                                <div>
-                                    <strong>Science</strong>
-                                    <span>Mr. Williams</span>
-                                </div>
-
-                                <div class="grade-value">89%</div>
-                            </div>
-
-                            <div class="subject-row">
-                                <div>
-                                    <strong>English</strong>
-                                    <span>Ms. Davis</span>
-                                </div>
-
-                                <div class="grade-value">86%</div>
-                            </div>
-
-                            <div class="subject-row">
-                                <div>
-                                    <strong>History</strong>
-                                    <span>Mr. Brown</span>
-                                </div>
-
-                                <div class="grade-value">85%</div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- UPCOMING ASSIGNMENTS -->
-
-                    <section class="parent-section">
-                        <div class="parent-section-header">
-                            <div>
-                                <h2>Upcoming Assignments</h2>
-                                <p>Deadlines coming up soon.</p>
-                            </div>
-
-                            <a href="#">View All</a>
-                        </div>
-
-                        <div class="assignment-list">
-                            <div class="assignment-item">
-                                <div class="assignment-date">
-                                    <strong>20</strong>
-                                    <span>SEP</span>
-                                </div>
-
-                                <div class="assignment-info">
-                                    <strong>Fractions Worksheet</strong>
-                                    <span>Mathematics</span>
-                                </div>
-
-                                <span class="due-soon"> 2 days </span>
-                            </div>
-
-                            <div class="assignment-item">
-                                <div class="assignment-date">
-                                    <strong>22</strong>
-                                    <span>SEP</span>
-                                </div>
-
-                                <div class="assignment-info">
-                                    <strong>Chapter 4 Reading</strong>
-                                    <span>English</span>
-                                </div>
-
-                                <span class="due-date"> 4 days </span>
-                            </div>
-
-                            <div class="assignment-item">
-                                <div class="assignment-date">
-                                    <strong>25</strong>
-                                    <span>SEP</span>
-                                </div>
-
-                                <div class="assignment-info">
-                                    <strong>Solar System Project</strong>
-                                    <span>Science</span>
-                                </div>
-
-                                <span class="due-date"> 7 days </span>
-                            </div>
-
-                            <div class="assignment-item">
-                                <div class="assignment-date">
-                                    <strong>27</strong>
-                                    <span>SEP</span>
-                                </div>
-
-                                <div class="assignment-info">
-                                    <strong>History Essay</strong>
-                                    <span>History</span>
-                                </div>
-
-                                <span class="due-date"> 9 days </span>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-                <!-- PAYMENTS -->
-
-                <section class="parent-section full-width">
-                    <div class="parent-section-header">
-                        <div>
-                            <h2>Payments</h2>
-                            <p>Manage school fees and payments.</p>
-                        </div>
-
-                        <button class="primary-button">Make Payment</button>
-                    </div>
-
-                    <div class="payment-overview">
-                        <div class="payment-due">
-                            <span class="payment-label"> Current Balance </span>
-
-                            <strong> $125.00 </strong>
-
-                            <span class="payment-due-date">
-                                Due September 30, 2026
-                            </span>
-                        </div>
-
-                        <div class="payment-details">
-                            <div>
-                                <span>Tuition</span>
-                                <strong>$100.00</strong>
-                            </div>
-
-                            <div>
-                                <span>Activity Fee</span>
-                                <strong>$25.00</strong>
-                            </div>
-                        </div>
-
-                        <div class="payment-history">
-                            <span class="payment-label"> Last Payment </span>
-
-                            <strong> $200.00 </strong>
-
-                            <span> September 1, 2026 </span>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- MESSAGES -->
-
-                <section class="parent-section full-width">
-                    <div class="parent-section-header">
-                        <div>
-                            <h2>Messages</h2>
-                            <p>Communicate with your child's teachers.</p>
-                        </div>
-
-                        <button class="secondary-button">
-                            View All Messages
-                        </button>
-                    </div>
-
-                    <div class="message-list">
-                        <div class="message-item">
-                            <div class="message-avatar">MJ</div>
-
-                            <div class="message-content">
-                                <div class="message-top">
-                                    <strong> Ms. Johnson </strong>
-
-                                    <span> Today, 9:42 AM </span>
-                                </div>
-
-                                <p>
-                                    Sarah has been doing very well in
-                                    mathematics this semester. I wanted to share
-                                    some additional practice material...
-                                </p>
-                            </div>
-
-                            <span class="unread-dot"></span>
-                        </div>
-
-                        <div class="message-item">
-                            <div class="message-avatar">SW</div>
-
-                            <div class="message-content">
-                                <div class="message-top">
-                                    <strong> Mr. Williams </strong>
-
-                                    <span> Yesterday </span>
-                                </div>
-
-                                <p>
-                                    Just a reminder that the science project is
-                                    due next Friday.
-                                </p>
-                            </div>
-
-                            <span class="unread-dot"></span>
-                        </div>
-
-                        <div class="message-item">
-                            <div class="message-avatar">MD</div>
-
-                            <div class="message-content">
-                                <div class="message-top">
-                                    <strong> Ms. Davis </strong>
-
-                                    <span> Sep 15 </span>
-                                </div>
-
-                                <p>
-                                    Thank you for reaching out. I have attached
-                                    Sarah's latest reading assessment.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parent Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+```
+<!-- TOP NAVIGATION -->
+<nav class="navbar">
+    <div class="logo">School Portal</div>
+
+    <div class="teacher-info">
+        <span>Welcome, Mr. Ahmed</span>
+        <a href="index.html" class="logout-btn">Logout</a>
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="parent-main">
+
+    <!-- PAGE HEADER -->
+    <div class="parent-header">
+        <div>
+            <h1>Parent Dashboard</h1>
+            <p>Stay up to date with your child's school activity.</p>
         </div>
-        ```
-    </body>
+
+        <button class="primary-button">Message a Teacher</button>
+    </div>
+
+    <!-- CHILD INFORMATION -->
+    <section class="parent-section child-section">
+        <div>
+            <span class="section-label">Student</span>
+            <h2>Sarah Ahmed</h2>
+            <p>Grade 8 · Student ID #10284</p>
+        </div>
+
+        <button class="secondary-button">Switch Child</button>
+    </section>
+
+    <!-- QUICK OVERVIEW -->
+    <section class="overview-section">
+
+        <div class="parent-summary-card">
+            <span class="summary-label">Overall Grade</span>
+            <h2>88%</h2>
+            <span class="summary-small">Current average</span>
+        </div>
+
+        <div class="parent-summary-card">
+            <span class="summary-label">Upcoming Work</span>
+            <h2>4</h2>
+            <span class="summary-small">Due this week</span>
+        </div>
+
+        <div class="parent-summary-card">
+            <span class="summary-label">Amount Due</span>
+            <h2>$125</h2>
+            <span class="summary-small">Due September 30</span>
+        </div>
+
+        <div class="parent-summary-card">
+            <span class="summary-label">Messages</span>
+            <h2>2</h2>
+            <span class="summary-small">Unread messages</span>
+        </div>
+
+    </section>
+
+    <!-- GRADES -->
+    <section class="parent-section">
+
+        <div class="parent-section-header">
+            <div>
+                <h2>Grades</h2>
+                <p>Sarah's current class performance.</p>
+            </div>
+
+            <a href="#">View All</a>
+        </div>
+
+        <div class="subject-list">
+
+            <div class="subject-row">
+                <div>
+                    <strong>Mathematics</strong>
+                    <span>Ms. Johnson</span>
+                </div>
+
+                <strong class="grade-value">92%</strong>
+            </div>
+
+            <div class="subject-row">
+                <div>
+                    <strong>Science</strong>
+                    <span>Mr. Williams</span>
+                </div>
+
+                <strong class="grade-value">89%</strong>
+            </div>
+
+            <div class="subject-row">
+                <div>
+                    <strong>English</strong>
+                    <span>Ms. Davis</span>
+                </div>
+
+                <strong class="grade-value">86%</strong>
+            </div>
+
+            <div class="subject-row">
+                <div>
+                    <strong>History</strong>
+                    <span>Mr. Brown</span>
+                </div>
+
+                <strong class="grade-value">85%</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- UPCOMING ASSIGNMENTS -->
+    <section class="parent-section">
+
+        <div class="parent-section-header">
+            <div>
+                <h2>Upcoming Assignments</h2>
+                <p>Deadlines coming up soon.</p>
+            </div>
+
+            <a href="#">View All</a>
+        </div>
+
+        <div class="assignment-list">
+
+            <div class="assignment-item">
+                <div class="assignment-info">
+                    <strong>Fractions Worksheet</strong>
+                    <span>Mathematics · Due September 20</span>
+                </div>
+
+                <span class="due-soon">2 days</span>
+            </div>
+
+            <div class="assignment-item">
+                <div class="assignment-info">
+                    <strong>Chapter 4 Reading</strong>
+                    <span>English · Due September 22</span>
+                </div>
+
+                <span class="due-date">4 days</span>
+            </div>
+
+            <div class="assignment-item">
+                <div class="assignment-info">
+                    <strong>Solar System Project</strong>
+                    <span>Science · Due September 25</span>
+                </div>
+
+                <span class="due-date">7 days</span>
+            </div>
+
+            <div class="assignment-item">
+                <div class="assignment-info">
+                    <strong>History Essay</strong>
+                    <span>History · Due September 27</span>
+                </div>
+
+                <span class="due-date">9 days</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAYMENTS -->
+    <section class="parent-section">
+
+        <div class="parent-section-header">
+            <div>
+                <h2>Payments</h2>
+                <p>Manage school fees and payments.</p>
+            </div>
+
+            <button class="primary-button">Make Payment</button>
+        </div>
+
+        <div class="payment-overview">
+
+            <div class="payment-due">
+                <span class="payment-label">Current Balance</span>
+                <strong>$125.00</strong>
+                <span class="payment-due-date">
+                    Due September 30, 2026
+                </span>
+            </div>
+
+            <div class="payment-details">
+
+                <div>
+                    <span>Tuition</span>
+                    <strong>$100.00</strong>
+                </div>
+
+                <div>
+                    <span>Activity Fee</span>
+                    <strong>$25.00</strong>
+                </div>
+
+            </div>
+
+            <div class="payment-history">
+                <span class="payment-label">Last Payment</span>
+                <strong>$200.00</strong>
+                <span>September 1, 2026</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MESSAGES -->
+    <section class="parent-section">
+
+        <div class="parent-section-header">
+            <div>
+                <h2>Messages</h2>
+                <p>Communicate with your child's teachers.</p>
+            </div>
+
+            <button class="secondary-button">View All Messages</button>
+        </div>
+
+        <div class="message-list">
+
+            <div class="message-item">
+
+                <div class="message-content">
+                    <div class="message-top">
+                        <strong>Ms. Johnson</strong>
+                        <span>Today, 9:42 AM</span>
+                    </div>
+
+                    <p>
+                        Sarah has been doing very well in mathematics this
+                        semester. I wanted to share some additional
+                        practice material...
+                    </p>
+                </div>
+
+                <span class="unread-dot"></span>
+
+            </div>
+
+            <div class="message-item">
+
+                <div class="message-content">
+                    <div class="message-top">
+                        <strong>Mr. Williams</strong>
+                        <span>Yesterday</span>
+                    </div>
+
+                    <p>
+                        Just a reminder that the science project is due
+                        next Friday.
+                    </p>
+                </div>
+
+                <span class="unread-dot"></span>
+
+            </div>
+
+            <div class="message-item">
+
+                <div class="message-content">
+                    <div class="message-top">
+                        <strong>Ms. Davis</strong>
+                        <span>Sep 15</span>
+                    </div>
+
+                    <p>
+                        Thank you for reaching out. I have attached Sarah's
+                        latest reading assessment.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+```
+
+</body>
 </html>
