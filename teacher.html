@@ -1,6 +1,7 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,165 +11,77 @@
 
 <body>
 
-```
-<!-- TOP NAVIGATION -->
-<nav class="navbar">
+    <!-- TOP NAVIGATION -->
 
-    <div class="logo">
-        School Portal
-    </div>
+    <nav class="navbar">
 
-    <div class="teacher-info">
-        <span>Welcome, Ms. Ahmed</span>
-        <a href="index.html" class="logout-btn">Logout</a>
-    </div>
-
-</nav>
-
-
-<div class="teacher-layout">
-
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-
-        <div class="sidebar-title">
-            Teacher Portal
+        <div class="logo">
+            School Portal
         </div>
 
-        <a href="#" class="sidebar-link active">
-            <span>📊</span>
-            Dashboard
-        </a>
-
-        <a href="#" class="sidebar-link">
-            <span>⏱️</span>
-            Log Hours
-        </a>
-
-        <a href="#" class="sidebar-link">
-            <span>📝</span>
-            Assignments
-        </a>
-
-        <a href="#" class="sidebar-link">
-            <span>📚</span>
-            Classes
-        </a>
-
-        <a href="#" class="sidebar-link">
-            <span>🎓</span>
-            Grades
-        </a>
-
-        <a href="#" class="sidebar-link">
-            <span>📈</span>
-            Reports
-        </a>
-
-        <div class="sidebar-bottom">
-
-            <a href="#" class="sidebar-link">
-                <span>⚙️</span>
-                Settings
-            </a>
-
+        <div class="teacher-info">
+            <span>Welcome, Ms. Ahmed</span>
+            <a href="index.html" class="logout-btn">Logout</a>
         </div>
 
-    </aside>
+    </nav>
 
 
     <!-- MAIN CONTENT -->
+
     <main class="teacher-main">
+
+        <!-- PAGE HEADER -->
 
         <div class="page-header">
 
             <div>
                 <h1>Teacher Dashboard</h1>
-                <p>Manage your classes, assignments, hours, and grades.</p>
+                <p>Manage your teaching, assignments, and grades.</p>
             </div>
 
             <button class="primary-button">
-                + Create Assignment
+                Create Assignment
             </button>
 
         </div>
 
 
-        <!-- SUMMARY CARDS -->
+        <!-- SUMMARY -->
 
         <div class="summary-cards">
 
             <div class="summary-card">
-
-                <div class="summary-icon">
-                    ⏱️
-                </div>
-
-                <div>
-                    <p class="summary-label">Hours This Month</p>
-                    <h2>42.5 hrs</h2>
-                    <span class="summary-small">
-                        7.5 hrs this week
-                    </span>
-                </div>
-
+                <p class="summary-label">Hours This Month</p>
+                <h2>42.5 hrs</h2>
+                <span class="summary-small">7.5 hrs this week</span>
             </div>
 
 
             <div class="summary-card">
-
-                <div class="summary-icon">
-                    📝
-                </div>
-
-                <div>
-                    <p class="summary-label">Active Assignments</p>
-                    <h2>8</h2>
-                    <span class="summary-small">
-                        3 due this week
-                    </span>
-                </div>
-
+                <p class="summary-label">Active Assignments</p>
+                <h2>8</h2>
+                <span class="summary-small">3 due this week</span>
             </div>
 
 
             <div class="summary-card">
-
-                <div class="summary-icon">
-                    🎓
-                </div>
-
-                <div>
-                    <p class="summary-label">Grades Pending</p>
-                    <h2>17</h2>
-                    <span class="summary-small">
-                        Across 3 classes
-                    </span>
-                </div>
-
+                <p class="summary-label">Grades Pending</p>
+                <h2>17</h2>
+                <span class="summary-small">Across 3 classes</span>
             </div>
 
 
             <div class="summary-card">
-
-                <div class="summary-icon">
-                    📚
-                </div>
-
-                <div>
-                    <p class="summary-label">My Classes</p>
-                    <h2>5</h2>
-                    <span class="summary-small">
-                        124 students
-                    </span>
-                </div>
-
+                <p class="summary-label">My Classes</p>
+                <h2>5</h2>
+                <span class="summary-small">124 students</span>
             </div>
 
         </div>
 
 
-        <!-- MAIN GRID -->
+        <!-- HOURS -->
 
         <div class="dashboard-grid">
 
@@ -181,7 +94,7 @@
 
                     <div>
                         <h2>Log Teaching Hours</h2>
-                        <p>Record your hours for this week.</p>
+                        <p>Record your teaching hours.</p>
                     </div>
 
                     <a href="#">View History</a>
@@ -211,14 +124,12 @@
                         <label>Class / Activity</label>
 
                         <select>
-
                             <option>Select class or activity</option>
                             <option>Mathematics - Grade 8</option>
                             <option>Science - Grade 7</option>
                             <option>English - Grade 8</option>
                             <option>Administrative Work</option>
                             <option>Staff Meeting</option>
-
                         </select>
 
                     </div>
@@ -229,7 +140,7 @@
                         <label>Notes</label>
 
                         <textarea
-                            placeholder="Optional notes about your hours..."
+                            placeholder="Optional notes..."
                         ></textarea>
 
                     </div>
@@ -242,7 +153,6 @@
                 </div>
 
             </section>
-
 
 
             <!-- RECENT HOURS -->
@@ -315,7 +225,6 @@
         </div>
 
 
-
         <!-- ASSIGNMENTS -->
 
         <section class="dashboard-section full-width">
@@ -324,11 +233,11 @@
 
                 <div>
                     <h2>Assignments</h2>
-                    <p>Create, upload, and manage assignments.</p>
+                    <p>Manage your assignments and student submissions.</p>
                 </div>
 
                 <button class="primary-button">
-                    + New Assignment
+                    New Assignment
                 </button>
 
             </div>
@@ -443,7 +352,6 @@
         </section>
 
 
-
         <!-- GRADES -->
 
         <section class="dashboard-section full-width">
@@ -452,7 +360,7 @@
 
                 <div>
                     <h2>Grades</h2>
-                    <p>Monitor and upload student grades.</p>
+                    <p>Monitor and manage student grades.</p>
                 </div>
 
                 <div class="header-buttons">
@@ -471,6 +379,7 @@
 
 
             <div class="grades-overview">
+
 
                 <div class="grade-class">
 
@@ -543,14 +452,13 @@
 
                 </div>
 
+
             </div>
 
         </section>
 
     </main>
 
-</div>
-```
-
 </body>
+
 </html>
